@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Mission">
+      <Name>Mission Two</Name>
+      <Description>"The Pit" You have been caputred trying to infiltrate the base and thown into some kind of pit</Description>
+      <ObjectiveMessage>Look around the area and try to find something you could use as a weapon to defend yourself whatever is in here is probably hungry</ObjectiveMessage>
+      <CompletionMessage>That was a close one now lets find out whats going on in here</CompletionMessage>
+      <GearRequirements>
+          <Item>
+              <ContentName>Weapons\MetalPipe</ContentName>
+              <Count>1</Count>
+          </Item>
+      </GearRequirements>
+    
+      <MonsterRequirements>
+        <Item>
+          <ContentName>PitMutant</ContentName>
+          <Count>1</Count>
+        </Item>
+       </MonsterRequirements>
+    
+      <FixedCombatEntries />
+      <ChestEntries />
+          
+      <DestinationMapContentName>Map003</DestinationMapContentName>
+      <DestinationNpcContentName>Mission2Placeholder</DestinationNpcContentName>
+      <DestinationObjectiveMessage>well done now that the mutant is dead get the hell put of here</DestinationObjectiveMessage>
+      <ExperienceReward>50</ExperienceReward>
+      <MoneyReward>0</MoneyReward>
+      <GearRewardContentNames />
+         
+  </Asset>
+</XnaContent>

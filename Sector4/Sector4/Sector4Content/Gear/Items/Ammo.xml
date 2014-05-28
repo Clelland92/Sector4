@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Item">
+    <Name>Ammo</Name>
+    <Description>Ammo for Weapons</Description>
+    <MoneyValue>40</MoneyValue>
+    <IsDroppable>true</IsDroppable>
+    <MinimumCharacterLevel>1</MinimumCharacterLevel>
+    <SupportedClasses />
+    <IconTextureName>Ammo</IconTextureName>
+    <Usage>Combat,NonCombat</Usage>
+    <IsOffensive>false</IsOffensive>
+    <TargetDuration>0</TargetDuration>
+    <TargetEffectRange>
+      <HealthPointsRange>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+      </HealthPointsRange>
+      <AmmoPointsRange>
+        <Minimum>40</Minimum>
+        <Maximum>40</Maximum>
+      </AmmoPointsRange>
+      <PhysicalOffenseRange>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+      </PhysicalOffenseRange>
+      <PhysicalDefenseRange>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+      </PhysicalDefenseRange>
+      <AmmoalOffenseRange>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+      </AmmoalOffenseRange>
+      <AmmoalDefenseRange>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+      </AmmoalDefenseRange>
+    </TargetEffectRange>
+    <AdjacentTargets>0</AdjacentTargets>
+    <UsingCueName>HealPotion</UsingCueName>
+    <TravelingCueName />
+    <ImpactCueName>HealImpact</ImpactCueName>
+    <BlockCueName>HealImpact</BlockCueName>
+    <CreationSprite>
+      <TextureName>RangedWeapons\Ammo</TextureName>
+      <FrameDimensions>64 64</FrameDimensions>
+      <FramesPerRow>1</FramesPerRow>
+      <SourceOffset>40 20</SourceOffset>
+      <Animations />
+        
+    </CreationSprite>
+    <RangedWeaponSprite>
+      <TextureName>RangedWeapons\Ammo</TextureName>
+      <FrameDimensions>102 102</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>40 20</SourceOffset>
+      <Animations>
+        <Item>
+          <Name>Traveling</Name>
+          <StartingFrame>12</StartingFrame>
+          <EndingFrame>12</EndingFrame>
+          <Interval>120</Interval>
+          <IsLoop>true</IsLoop>
+        </Item>
+        <Item>
+          <Name>Impact</Name>
+          <StartingFrame>13</StartingFrame>
+          <EndingFrame>18</EndingFrame>
+          <Interval>200</Interval>
+          <IsLoop>false</IsLoop>
+        </Item>
+      </Animations>
+    </RangedWeaponSprite>
+    <Overlay>
+      <TextureName>RangedWeapons\Effect3</TextureName>
+      <FrameDimensions>130 210</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <Animations>
+        <Item>
+          <StartingFrame>1</StartingFrame>
+          <EndingFrame>6</EndingFrame>
+          <Interval>100</Interval>
+          <IsLoop>false</IsLoop>
+        </Item>
+      </Animations>
+    </Overlay>
+  </Asset>
+</XnaContent>

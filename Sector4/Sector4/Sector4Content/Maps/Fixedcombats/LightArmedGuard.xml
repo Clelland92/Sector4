@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<XnaContent>
+  <Asset Type="Sector4Data.FixedCombat">
+    <Name>Light Armed Guard</Name>
+    <Entries>
+      <Item>
+        <ContentName>LightArmedGuard</ContentName>
+        <Count>1</Count>
+      </Item>
+    </Entries>
+  </Asset>
+</XnaContent>

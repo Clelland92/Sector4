@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.RangedWeapon">
+    <Name>Shotgun</Name>
+    <Description>Pump Action</Description>
+    <AmmoPointCost>12</AmmoPointCost>
+    <IsOffensive>true</IsOffensive>
+    <TargetDuration>0</TargetDuration>
+    <InitialTargetEffectRange>
+      <HealthPointsRange>
+        <Minimum>5</Minimum>
+        <Maximum>30</Maximum>
+      </HealthPointsRange>
+    </InitialTargetEffectRange>
+    <AdjacentTargets>0</AdjacentTargets>
+    <LevelingProgression>
+      <HealthPoints>5</HealthPoints>
+    </LevelingProgression>
+    <CreatingCueName>Shotgun</CreatingCueName>
+    <TravelingCueName>FlameThrowerTravel</TravelingCueName>
+    <ImpactCueName>Ricochet</ImpactCueName>
+    <BlockCueName>Ricochet</BlockCueName>
+    <IconTextureName>Shotgun</IconTextureName>
+    <RangedWeaponSprite>
+      <TextureName>RangedWeapons\ShotgunBullet</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>40 40</SourceOffset>
+      <Animations>
+        <Item>
+          <Name>Creation</Name>
+          <StartingFrame>1</StartingFrame>
+          <EndingFrame>12</EndingFrame>
+          <Interval>50</Interval>
+          <IsLoop>false</IsLoop>
+        </Item>
+        <Item>
+          <Name>Traveling</Name>
+          <StartingFrame>13</StartingFrame>
+          <EndingFrame>18</EndingFrame>
+          <Interval>50</Interval>
+          <IsLoop>true</IsLoop>
+        </Item>
+        <Item>
+          <Name>Impact</Name>
+          <StartingFrame>19</StartingFrame>
+          <EndingFrame>24</EndingFrame>
+          <Interval>50</Interval>
+          <IsLoop>false</IsLoop>
+        </Item>
+      </Animations>
+    </RangedWeaponSprite>
+    <Overlay>
+      <TextureName>RangedWeapons\Overlay2</TextureName>
+      <FrameDimensions>222 177</FrameDimensions>
+      <FramesPerRow>4</FramesPerRow>
+      <Animations>
+        <Item>
+          <StartingFrame>1</StartingFrame>
+          <EndingFrame>4</EndingFrame>
+          <Interval>200</Interval>
+          <IsLoop>true</IsLoop>
+        </Item>
+      </Animations>
+    </Overlay>
+  </Asset>
+</XnaContent>

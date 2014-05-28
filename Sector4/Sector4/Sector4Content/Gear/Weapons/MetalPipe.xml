@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Weapon">
+    <Name>MetalPipe</Name>
+    <Description>Would make a good weapon</Description>
+    <MoneyValue>0</MoneyValue>
+    <IsDroppable>true</IsDroppable>
+    <MinimumCharacterLevel>1</MinimumCharacterLevel>
+    <SupportedClasses />
+    <IconTextureName>MetalPipe</IconTextureName>
+    <TargetDamageRange>
+      <Minimum>2</Minimum>
+      <Maximum>4</Maximum>
+    </TargetDamageRange>
+    <SwingCueName>MeleeSwing</SwingCueName>
+    <HitCueName>MeleeHit</HitCueName>
+    <BlockCueName>MeleeBlock</BlockCueName>
+    <Overlay>
+      <TextureName>RangedWeapons\OverlayMelee</TextureName>
+      <FrameDimensions>111 130</FrameDimensions>
+      <FramesPerRow>1</FramesPerRow>
+      <Animations>
+        <Item>
+          <StartingFrame>1</StartingFrame>
+          <EndingFrame>1</EndingFrame>
+          <Interval>200</Interval>
+          <IsLoop>false</IsLoop>
+        </Item>
+      </Animations>
+    </Overlay>
+  </Asset>
+</XnaContent>

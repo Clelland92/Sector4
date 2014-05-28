@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Monster">
+    <Name>Light Armed Guard</Name>
+    <MapSprite>
+      <TextureName>Characters\LightArmedGuard</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>40 40 </SourceOffset>
+      <Animations />
+    </MapSprite>
+    <CharacterClassContentName>LightArmedGuard</CharacterClassContentName>
+    <CharacterLevel>2</CharacterLevel>
+    <InitialEquipmentContentNames>
+      <Item>Weapons\MetalPipe</Item>
+    </InitialEquipmentContentNames>
+    <Inventory />
+    <CombatSprite>
+      <TextureName>Characters\LightArmedGuard</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>16 16</SourceOffset>
+      <Animations />
+    </CombatSprite>
+    <DefendPercentage>0</DefendPercentage>
+    <GearDrops>
+      <Item>
+        <GearName>Items\MedPack</GearName>
+        <DropPercentage>60</DropPercentage>
+      </Item>
+
+      <Item>
+        <GearName>Items\Ammo</GearName>
+        <DropPercentage>60</DropPercentage>
+      </Item>
+    </GearDrops>
+  </Asset>
+</XnaContent>

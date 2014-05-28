@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{FEDB12FD-2AE0-4F94-A38F-2D7260364A15}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sector4Processors</RootNamespace>
+    <AssemblyName>Sector4Processors</AssemblyName>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>true</SpecificVersion>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\AnimatingSpriteWriter.cs" />
+    <Compile Include="Animation\AnimationWriter.cs" />
+    <Compile Include="Characters\CharacterClassWriter.cs" />
+    <Compile Include="Characters\CharacterLevelDescriptionWriter.cs" />
+    <Compile Include="Characters\CharacterLevelingStatisticsWriter.cs" />
+    <Compile Include="Characters\CharacterWriter.cs" />
+    <Compile Include="Characters\FightingCharacterWriter.cs" />
+    <Compile Include="Characters\MonsterWriter.cs" />
+    <Compile Include="Characters\PlayerWriter.cs" />
+    <Compile Include="Characters\MissionNpcWriter.cs" />
+    <Compile Include="ContentEntryWriter.cs" />
+    <Compile Include="Data\Int32RangeWriter.cs" />
+    <Compile Include="Data\StatisticsRangeWriter.cs" />
+    <Compile Include="Data\StatisticsValueWriter.cs" />
+    <Compile Include="GameStartDescriptionWriter.cs" />
+    <Compile Include="Gear\ArmorWriter.cs" />
+    <Compile Include="Gear\EquipmentWriter.cs" />
+    <Compile Include="Gear\GearDropWriter.cs" />
+    <Compile Include="Gear\GearWriter.cs" />
+    <Compile Include="Gear\ItemWriter.cs" />
+    <Compile Include="Gear\WeaponWriter.cs" />
+    <Compile Include="MapEntryWriter.cs" />
+    <Compile Include="Map\ChestWriter.cs" />
+    <Compile Include="Map\FixedCombatWriter.cs" />
+    <Compile Include="Map\InnWriter.cs" />
+    <Compile Include="Map\MapWriter.cs" />
+    <Compile Include="Map\PortalWriter.cs" />
+    <Compile Include="Map\RandomCombatWriter.cs" />
+    <Compile Include="Map\StoreCategoryWriter.cs" />
+    <Compile Include="Map\StoreWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Mission\MissionLineWriter.cs" />
+    <Compile Include="Mission\MissionRequirementWriter.cs" />
+    <Compile Include="Mission\MissionWriter.cs" />
+    <Compile Include="RolePlayingGameWriter.cs" />
+    <Compile Include="RangedWeaponWriter.cs" />
+    <Compile Include="WeightedContentEntryWriter.cs" />
+    <Compile Include="WorldEntryWriter.cs" />
+    <Compile Include="WorldObjectWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sector4Data\Sector4Data.csproj">
+      <Project>{41D95EB4-36FA-4347-A650-228948BBB95C}</Project>
+      <Name>Sector4Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.ContentPipelineExtensions.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

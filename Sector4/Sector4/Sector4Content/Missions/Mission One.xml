@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Mission">
+    <Name>Mission One</Name>
+    <Description>Break the Base</Description>
+    <ObjectiveMessage> Make your way through the forest and try to infiltrate the base </ObjectiveMessage>
+    <CompletionMessage>You've successfully managed to get into the base, but you have been caputured, after interogation you have been thrown into some kind of pit</CompletionMessage>
+    <GearRequirements />
+    <MonsterRequirements />
+    <FixedCombatEntries />
+    <ChestEntries />
+    <DestinationMapContentName>Map002</DestinationMapContentName>
+    <DestinationNpcContentName>Mission1Placeholder</DestinationNpcContentName>
+    <DestinationObjectiveMessage> Make your way through the forest and try to infiltrate the base </DestinationObjectiveMessage>
+    <ExperienceReward>40</ExperienceReward>
+    <MoneyReward>0</MoneyReward>
+    <GearRewardContentNames />
+  </Asset>
+</XnaContent>

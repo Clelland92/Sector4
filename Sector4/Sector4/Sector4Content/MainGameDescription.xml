@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.GameStartDescription">
+      <MapContentName>Map001</MapContentName>
+	  <PlayerContentNames>
+		  <Item>John_S</Item>
+	  </PlayerContentNames>
+      <MissionLineContentName>MainMissionLine</MissionLineContentName>
+  </Asset>
+</XnaContent>

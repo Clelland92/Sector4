@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<XnaContent>
+  <Asset Type="Sector4Data.FixedCombat">
+    <Name>Mutant</Name>
+    <Entries>
+      <Item>
+        <ContentName>PitMutant</ContentName>
+        <Count>1</Count>
+      </Item>      
+    </Entries>
+  </Asset>
+</XnaContent>

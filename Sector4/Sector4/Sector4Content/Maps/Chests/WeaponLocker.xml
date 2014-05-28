@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<XnaContent>
+  <Asset Type="Sector4Data.Chest">
+    <Name>WeaponsLocker</Name>
+    <Money>0</Money>
+    <Entries>
+      <Item>
+        <ContentName>Weapons\FlameThrower</ContentName>
+        <Count>1</Count>
+      </Item>
+      
+      
+      
+    </Entries>
+    <TextureName>WeaponsLocker</TextureName>
+  </Asset>
+</XnaContent>

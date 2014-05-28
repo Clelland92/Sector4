@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Monster">
+    <Name>Final Boss</Name>
+    <MapSprite>
+      <TextureName>Characters\FinalBoss</TextureName>
+      <FrameDimensions>64 64</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>50 50 </SourceOffset>
+      <Animations />
+    </MapSprite>
+    <CharacterClassContentName>FinalBoss</CharacterClassContentName>
+    <CharacterLevel>2</CharacterLevel>
+    <InitialEquipmentContentNames>
+      <Item>Weapons\MetalPipe</Item>
+    </InitialEquipmentContentNames>
+    <Inventory />
+    <CombatSprite>
+      <TextureName>Characters\FinalBoss</TextureName>
+      <FrameDimensions>64 64</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>25 50</SourceOffset>
+      <Animations />
+    </CombatSprite>
+    <DefendPercentage>0</DefendPercentage>
+    <GearDrops>
+      <Item>
+        <GearName>Items\MedPack</GearName>
+        <DropPercentage>60</DropPercentage>
+      </Item>
+
+      <Item>
+        <GearName>Items\MedPack</GearName>
+        <DropPercentage>60</DropPercentage>
+      </Item>
+    </GearDrops>
+  </Asset>
+</XnaContent>

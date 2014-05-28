@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Mission">
+    <Name>Mission Four</Name>
+    <Description>"Taking out the Trash" This place must be the facilitys Garbage Dump there apear to be mutants all over the place probably due to that green toxic liquid</Description>
+    <ObjectiveMessage>Find Away to get out of this Dump</ObjectiveMessage>
+    <CompletionMessage>I think I better get out of here</CompletionMessage>
+    <GearRequirements />
+    <MonsterRequirements>
+      <Item>
+        <ContentName>ToxicMutant</ContentName>
+        <Count>4</Count>
+      </Item>
+    </MonsterRequirements>
+    <FixedCombatEntries />
+    <ChestEntries />
+    <DestinationMapContentName>Map005</DestinationMapContentName>
+    <DestinationNpcContentName>Mission5Placeholder</DestinationNpcContentName>
+    <DestinationObjectiveMessage> What the hell is going on in this place </DestinationObjectiveMessage>
+    <ExperienceReward>40</ExperienceReward>
+    <MoneyReward>0</MoneyReward>
+    <GearRewardContentNames />
+  </Asset>
+</XnaContent>

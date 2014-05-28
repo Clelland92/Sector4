@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Weapon">
+    <Name>FlameThrower</Name>
+    <Description>Its Hot</Description>
+    <MoneyValue>0</MoneyValue>
+    <IsDroppable>true</IsDroppable>
+    <MinimumCharacterLevel>1</MinimumCharacterLevel>
+    <SupportedClasses />
+    <IconTextureName>FlameThrower</IconTextureName>
+    <TargetDamageRange>
+      <Minimum>2</Minimum>
+      <Maximum>4</Maximum>
+    </TargetDamageRange>
+    <SwingCueName>MeleeSwing</SwingCueName>
+    <HitCueName>MeleeHit</HitCueName>
+    <BlockCueName>MeleeBlock</BlockCueName>
+    <Overlay>
+      <TextureName>RangedWeapons\Flamethrower</TextureName>
+      <FrameDimensions>111 130</FrameDimensions>
+      <FramesPerRow>1</FramesPerRow>
+      <Animations>
+        <Item>
+          <StartingFrame>1</StartingFrame>
+          <EndingFrame>1</EndingFrame>
+          <Interval>200</Interval>
+          <IsLoop>false</IsLoop>
+        </Item>
+      </Animations>
+    </Overlay>
+  </Asset>
+</XnaContent>

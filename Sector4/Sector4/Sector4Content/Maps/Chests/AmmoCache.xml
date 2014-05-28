@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<XnaContent>
+  <Asset Type="Sector4Data.Chest">
+    <Name>Ammo Cache</Name>
+    <Money>0</Money>
+    <Entries>
+      <Item>
+        <ContentName>Weapons\M16</ContentName>
+        <Count>1</Count>
+      </Item>
+      <Item>
+        <ContentName>Items\Ammo</ContentName>
+        <Count>3</Count>
+      </Item>
+      <Item>
+        <ContentName>Items\MedPack</ContentName>
+        <Count>3</Count>
+      </Item>
+      <Item>
+        <ContentName>Armor\BodyArmor</ContentName>
+        <Count>1</Count>
+      </Item>
+
+    </Entries>
+    <TextureName>WeaponsLocker</TextureName>
+  </Asset>
+</XnaContent>

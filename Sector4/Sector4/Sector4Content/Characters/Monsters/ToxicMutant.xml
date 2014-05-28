@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Monster">
+    <Name>Toxic Mutant</Name>
+    <MapSprite>
+      <TextureName>Characters\ToxicMutant</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>40 40</SourceOffset>
+      <Animations />
+    </MapSprite>
+    <CharacterClassContentName>MutantClass</CharacterClassContentName>
+    <CharacterLevel>1</CharacterLevel>
+    <InitialEquipmentContentNames>
+      <Item>Weapons\ShortSword</Item>
+    </InitialEquipmentContentNames>
+    <Inventory />
+    <CombatSprite>
+      <TextureName>Characters\ToxicMutant</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>16 16</SourceOffset>
+      <Animations />
+    </CombatSprite>
+    <DefendPercentage>0</DefendPercentage>
+    <GearDrops>
+      <Item>
+        <GearName>Items\MedPack</GearName>
+        <DropPercentage>60</DropPercentage>
+      </Item>
+    </GearDrops>
+  </Asset>
+</XnaContent>

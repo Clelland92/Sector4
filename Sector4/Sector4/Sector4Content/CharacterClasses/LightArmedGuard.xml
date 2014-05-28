@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.CharacterClass">
+    <Name>Hero</Name>
+    <InitialStatistics>
+      <HealthPoints>40</HealthPoints>
+      <AmmoPoints>50</AmmoPoints>
+      <PhysicalOffense>20</PhysicalOffense>
+      <PhysicalDefense>10</PhysicalDefense>
+      <AmmoalOffense>20</AmmoalOffense>
+      <AmmoalDefense>5</AmmoalDefense>
+    </InitialStatistics>
+    <LevelingStatistics>
+      <HealthPointsIncrease>10</HealthPointsIncrease>
+      <LevelsPerHealthPointsIncrease>1</LevelsPerHealthPointsIncrease>
+      <AmmoPointsIncrease>0</AmmoPointsIncrease>
+      <LevelsPerAmmoPointsIncrease>1</LevelsPerAmmoPointsIncrease>
+      <PhysicalOffenseIncrease>3</PhysicalOffenseIncrease>
+      <LevelsPerPhysicalOffenseIncrease>1</LevelsPerPhysicalOffenseIncrease>
+      <PhysicalDefenseIncrease>3</PhysicalDefenseIncrease>
+      <LevelsPerPhysicalDefenseIncrease>1</LevelsPerPhysicalDefenseIncrease>
+      <AmmoalOffenseIncrease>1</AmmoalOffenseIncrease>
+      <LevelsPerAmmoalOffenseIncrease>1</LevelsPerAmmoalOffenseIncrease>
+      <AmmoalDefenseIncrease>1</AmmoalDefenseIncrease>
+      <LevelsPerAmmoalDefenseIncrease>1</LevelsPerAmmoalDefenseIncrease>
+    </LevelingStatistics>
+    <LevelEntries>
+      <Item>
+        <ExperiencePoints>10</ExperiencePoints>
+        <RangedWeaponContentNames>
+          <Item>Pistol</Item>
+        </RangedWeaponContentNames>
+      </Item>
+      
+    </LevelEntries>
+    <BaseExperienceValue>20</BaseExperienceValue>
+    <BaseMoneyValue>0</BaseMoneyValue>
+  </Asset>
+</XnaContent>

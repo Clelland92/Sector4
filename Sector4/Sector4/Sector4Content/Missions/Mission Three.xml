@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Mission">
+    <Name>Mission Three</Name>
+    <Description>"Hydroponics" This area must be some kind of greenhouse its pretty overgrown tho </Description>
+    <ObjectiveMessage>Look for something to help get through the plants</ObjectiveMessage>
+    <CompletionMessage>This place just keeps getting stranger and stranger</CompletionMessage>
+    <GearRequirements>
+      <Item>
+        <ContentName>Weapons/FlameThrower</ContentName>
+        <Count>1</Count>
+      </Item>
+    </GearRequirements>
+    <MonsterRequirements>
+      <Item>
+        <ContentName>PlantMonsterBoss</ContentName>
+        <Count>1</Count>
+      </Item>
+    </MonsterRequirements>
+    
+    <FixedCombatEntries />
+    <ChestEntries />
+      
+    <DestinationMapContentName>Map004</DestinationMapContentName>
+    <DestinationNpcContentName>Mission4Placeholder</DestinationNpcContentName>
+    <DestinationObjectiveMessage>Now you can burn your way past</DestinationObjectiveMessage>
+    <ExperienceReward>30</ExperienceReward>
+    <MoneyReward>0</MoneyReward>
+    <GearRewardContentNames>
+      <Item>Items\MedPack</Item>
+    </GearRewardContentNames>
+  </Asset>
+</XnaContent>

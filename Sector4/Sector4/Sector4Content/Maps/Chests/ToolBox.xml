@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<XnaContent>
+  <Asset Type="Sector4Data.Chest">
+    <Name>ToolBox</Name>
+    <Money>0</Money>
+    <Entries>
+      <Item>
+        <ContentName>Weapons\MetalPipe</ContentName>
+        <Count>1</Count>
+      </Item>
+    </Entries>
+    <TextureName>ToolBox</TextureName>
+  </Asset>
+</XnaContent>

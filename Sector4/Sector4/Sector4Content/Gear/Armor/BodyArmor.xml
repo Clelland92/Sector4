@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Armor">
+    <Name>Body Armor</Name>
+    <Description>Kevlar </Description>
+    <MoneyValue>75</MoneyValue>
+    <IsDroppable>true</IsDroppable>
+    <MinimumCharacterLevel>1</MinimumCharacterLevel>
+    <SupportedClasses />
+    <IconTextureName>BodyArmor</IconTextureName>
+    <Slot>Torso</Slot>
+    <OwnerHealthDefenseRange>
+      <Minimum>2</Minimum>
+      <Maximum>3</Maximum>
+    </OwnerHealthDefenseRange>
+    <OwnerAmmoDefenseRange>
+      <Minimum>2</Minimum>
+      <Maximum>3</Maximum>
+    </OwnerAmmoDefenseRange>
+  </Asset>
+</XnaContent>

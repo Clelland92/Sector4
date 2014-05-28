@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Mission">
+    <Name>Mission Six</Name>
+    <Description>"Communication Breakdown" Seems like the foyer area. OHNO IVE BEEN SPOTTED!!</Description>
+    <ObjectiveMessage>Fight your way out of here</ObjectiveMessage>
+    <CompletionMessage>There some doors to the south they may be the way out of this place</CompletionMessage>
+    <GearRequirements />
+    <MonsterRequirements>
+      <Item>
+        <ContentName>HeavyArmedGuard</ContentName>
+        <Count>4</Count>
+      </Item>
+    </MonsterRequirements>
+    <FixedCombatEntries />
+    <ChestEntries />
+    <DestinationMapContentName>Map006</DestinationMapContentName>
+    <DestinationNpcContentName>EndMissionPlaceholder</DestinationNpcContentName>
+    <DestinationObjectiveMessage> FIGHT YOUR WAY TO THE EXIT  </DestinationObjectiveMessage>
+    <ExperienceReward>40</ExperienceReward>
+    <MoneyReward>0</MoneyReward>
+    <GearRewardContentNames />
+  </Asset>
+</XnaContent>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.MissionNpc">
+    <Name>Mission Six</Name>
+    <MapSprite>
+      <TextureName>Characters/Mission6Placeholder</TextureName>
+      <FrameDimensions>16 16</FrameDimensions>
+      <FramesPerRow>1</FramesPerRow>
+      <SourceOffset>30 30</SourceOffset>
+      <Animations />
+    </MapSprite>
+    <MapIdleAnimationInterval>150</MapIdleAnimationInterval>
+    <IntroductionDialogue />
+  </Asset>
+</XnaContent>

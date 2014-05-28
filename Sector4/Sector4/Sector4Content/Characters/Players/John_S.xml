@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.Player">
+    <Name>John .S.</Name>
+    <MapSprite>
+      <TextureName>Characters\Player</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>40 40</SourceOffset>
+      <Animations />
+    </MapSprite>
+    <WalkingSprite>
+      <TextureName>Characters\Player</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>40 40</SourceOffset>
+      <Animations />
+    </WalkingSprite>
+    <MapIdleAnimationInterval>180</MapIdleAnimationInterval>
+    <CharacterClassContentName>Hero</CharacterClassContentName>
+    <CharacterLevel>1</CharacterLevel>
+    <InitialEquipmentContentNames />      
+      
+    <Inventory />
+    <CombatSprite>
+      <TextureName>Characters\PlayerAttack</TextureName>
+      <FrameDimensions>32 32</FrameDimensions>
+      <FramesPerRow>6</FramesPerRow>
+      <SourceOffset>16 16</SourceOffset>
+      <Animations />
+    </CombatSprite>
+    <Money>10</Money>
+    <IntroductionDialogue>John_S here.  EX SAS</IntroductionDialogue>
+    <JoinAcceptedDialogue>OOOH RAH</JoinAcceptedDialogue>
+    <JoinRejectedDialogue>I will take my expertise elsewhere</JoinRejectedDialogue>
+    <ActivePortraitTextureName>Hero1Active</ActivePortraitTextureName>
+    <InactivePortraitTextureName>Hero1InActive</InactivePortraitTextureName>
+    <UnselectablePortraitTextureName>Hero1Unselectable</UnselectablePortraitTextureName>
+  </Asset>
+</XnaContent>
+

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XnaContent>
+  <Asset Type="Sector4Data.MissionLine">
+    <Name>Mission List</Name>
+    <MissionContentNames>
+      <Item>Mission One</Item>
+      <Item>Mission Two</Item>
+      <Item>Mission Three</Item>
+      <Item>Mission Four</Item>
+      <Item>Mission Five</Item>
+      <Item>Mission Six</Item>
+      
+      
+    </MissionContentNames>
+  </Asset>
+</XnaContent>
